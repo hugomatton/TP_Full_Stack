@@ -3,6 +3,8 @@ import Home from "@/views/Home.vue";
 import Countries from "@/views/Countries.vue";
 import CountryEdit from "@/views/CountryEdit.vue";
 import CityEdit from "@/views/CityEdit.vue";
+import CityInCountry from "@/views/CityInCountry.vue"
+
 
 const routes = [
   {
@@ -25,6 +27,12 @@ const routes = [
     name: "CountryEdit",
     component: CountryEdit,
   },
+  {
+    path: "/cityInCountry",
+    name: "CityInCountry",
+    component: CityInCountry,
+  }
+  ,
   {
     path: "/about",
     name: "About",
